@@ -12,14 +12,15 @@ Easily embed Goole Talk Chatback on your site for online chat support. Widget, s
 
 Embed links to your Google Talk Chatback. Display different things when online or offline. The plugin is made to be highly customizable.
 
-**Features:**
+###Features
 
 * Custom "start chat link" and "offline text". Use text or image.
 * Display things depending on if the user is online or offline
 * Widget, Shortcode and Template Tag support
+* Translatable (send them to us if you make any)
 
 
-**Contact**
+###Contact
 
 Go to the [Plugin Home Page over at Intervaro Web Agency](http://intervaro.se/custom-google-talk-chatback-wordpress-plugin) to give feedback or propose a feature!
 
@@ -31,16 +32,16 @@ Special thanks to [Israelwebdev](http://israelwebdev.wordpress.com/2009/02/05/go
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Add the widget, insert shortcode into the WYSIWYG or use template tag in your theme template.
 
-**The Google Talk Hash Key (ID)**
+###The Google Talk Hash Key (ID)
 
 To use this plugin you first need to know what you hash key is for your Google Talk account. The hash key is the string containing characters and numbers, found between the *tk=* and *&* at http://www.google.com/talk/service/badge/New or for domain users, at: http://www.google.com/talk/service/a/**YOUR-DOMAIN-HERE**/badge/New
 
 
-**Widget instructions**
+###Widget instructions
 
 Just drag the widget to the prefered sidebar and set it up as wanted.
 
-**Shortcode instructions**
+###Shortcode instructions
 
 There are 3 shortcodes available.
 
@@ -57,7 +58,7 @@ There are 3 shortcodes available.
 [gtalk_offline hash=""] [/gtalk_offline]
 *Content inside shortcode will only be displayed if user is offline*
 
-**Template Tag instructions**
+###Template Tag instructions
 
 `<?php gtalk_status( $hash ) ?>`
 
@@ -72,7 +73,7 @@ There are 3 shortcodes available.
 
 == Frequently Asked Questions ==
 
-None yet..
+None yet.. Have one? Visit the [Custom Google Talk Plugin Homepage](http://intervaro.se/custom-google-talk-chatback-wordpress-plugin) 
 
 == Screenshots ==
 
