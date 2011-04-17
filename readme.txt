@@ -10,11 +10,7 @@ Easily embed Goole Talk Chatback on your site for online chat support. Widget, s
 
 == Description ==
 
-Embed links to your Google Talk Chatback. Display different things when online or offline.
-
-Highly customizable
-
-Special thanks to [Israelwebdev](http://israelwebdev.wordpress.com/2009/02/05/google-talk-status-api-in-php) who made the script that makes it possible to check if a user is online or offline.
+Embed links to your Google Talk Chatback. Display different things when online or offline. The plugin is made to be highly customizable.
 
 Features:
 
@@ -22,8 +18,10 @@ Features:
 * Display things depending on if the user is online or offline
 * Widget, Shortcode and Template Tag support
 
+Special thanks to [Israelwebdev](http://israelwebdev.wordpress.com/2009/02/05/google-talk-status-api-in-php) who made the script that makes it possible to check if a user is online or offline.
 
-Visit [Intervaro Web Agency](http://wordpress.org/ "Visit Intervaros website") to chat with us about this plugin ;-) or if you want to hire us!
+
+Go to the [Plugin Home Page over at Intervaro Web Agency](http://intervaro.se/custom-google-talk-chatback-wordpress-plugin) to give feedback or propose a feature!
 
 == Installation ==
 
