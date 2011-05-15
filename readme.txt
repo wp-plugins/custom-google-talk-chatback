@@ -4,7 +4,7 @@ Donate link: http://intervaro.se
 Tags: google, google talk, google talk chatback, gtalk, jabber, chat, instant message, support, online support, live support, live help, online chat, web chat, live chat, contact, contact form, widget, shortcode, template tag, plugin, links, sidebar
 Requires at least: 2.5
 Tested up to: 3.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 Easily embed Goole Talk Chatback on your site for online chat support. Widget, shortcode or template tag support!
 
