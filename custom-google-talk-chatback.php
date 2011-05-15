@@ -4,7 +4,7 @@ Plugin Name: Custom Google Talk Chatback
 Plugin URI: http://intervaro.se/wordpress-google-talk-plugin
 Description: This plugin makes it easy to add a link to chat with you via Google Talk Chatback. Supports Widgets and Shortcodes atm.
 Author: Intervaro Web Agency in Lund, Sweden
-Version: 1.0
+Version: 1.1
 Requires at least: 2.8
 Author URI: http://intervaro.se
 License: GPL
@@ -13,7 +13,7 @@ License: GPL
 require_once plugin_dir_path(__FILE__).'class-google-talk-status.php';
 
 // load translation files, if exists
-function myplugin_load_translation_file() {
+function cgtc_load_translation_file() {
     $plugin_path = plugin_basename( dirname( __FILE__ ) .'/translations' );
     load_plugin_textdomain( 'cgtc', '', $plugin_path );
 }
