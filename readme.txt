@@ -82,8 +82,9 @@ None yet.. Have one? Visit the [Custom Google Talk Plugin Homepage](http://inter
 
 == Changelog ==
 
-###1.2
+= 1.2 =
 
-* Fixed bug: loading translation files
+* Fixed Bugs:
+	* Loading translation files
 
 == Upgrade Notice ==
