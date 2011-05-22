@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Custom Google Talk Chatback
-Plugin URI: http://intervaro.se/wordpress-google-talk-plugin
+Plugin URI: http://intervaro.se/custom-google-talk-chatback-wordpress-plugin
 Description: This plugin makes it easy to add a link to chat with you via Google Talk Chatback. Supports Widgets and Shortcodes atm.
 Author: Intervaro Web Agency in Lund, Sweden
-Version: 1.2
+Version: 1.2.1
 Requires at least: 2.8
 Author URI: http://intervaro.se
 License: GPL
@@ -34,11 +34,11 @@ class GoogleTalkWidget extends WP_Widget {
 
 	// Form
 	function form( $instance ) {
-		$title					= esc_attr( $instance['title'] );
-		$hash						= esc_attr( $instance['hash'] );
-		$online					= esc_attr( $instance['online'] );
-		$online_link		= esc_attr( $instance['online_link'] );
-		$offline				= esc_attr( $instance['offline'] );
+		$title       = esc_attr( $instance['title'] );
+		$hash        = esc_attr( $instance['hash'] );
+		$online      = esc_attr( $instance['online'] );
+		$online_link = esc_attr( $instance['online_link'] );
+		$offline     = esc_attr( $instance['offline'] );
 		?>
 
 		<h3><?php _e('Settings', 'cgtc' ); ?></h3>
@@ -90,11 +90,11 @@ class GoogleTalkWidget extends WP_Widget {
 	// Widget
 	function widget( $args, $instance ) {
 		extract( $args );
-		$title				= apply_filters( 'widget_title', $instance['title'] );
-		$hash					= empty($instance['hash']) ? __('No hash supplied', 'cgtc' ) : $instance['hash'];
-		$online_link	= empty($instance['online_link']) ? __('Start chat', 'cgtc' ) : $instance['online_link'];
-		$online				= empty($instance['online']) ? __("I'm online.", 'cgtc' ) : $instance['online'];
-		$offline			= empty($instance['offline']) ? __("I'm offline.", 'cgtc' ) : $instance['offline'];
+		$title       = apply_filters( 'widget_title', $instance['title'] );
+		$hash        = empty($instance['hash']) ? __('No hash supplied', 'cgtc' ) : $instance['hash'];
+		$online_link = empty($instance['online_link']) ? __('Start chat', 'cgtc' ) : $instance['online_link'];
+		$online      = empty($instance['online']) ? __("I'm online.", 'cgtc' ) : $instance['online'];
+		$offline     = empty($instance['offline']) ? __("I'm offline.", 'cgtc' ) : $instance['offline'];
 
 		echo $before_widget;
 

@@ -6,7 +6,7 @@ Requires at least: 2.5
 Tested up to: 3.1
 Stable tag: 1.2
 
-Easily embed Goole Talk Chatback on your site for online chat support. Widget, shortcode or template tag support!
+Easily embed Goole Talk Chatback on your site for online chat support. Widget, Shortcode and Template Tag support!
 
 == Description ==
 
@@ -30,6 +30,7 @@ Special thanks to [Israelwebdev](http://israelwebdev.wordpress.com/2009/02/05/go
 
 1. Upload `custom-google-talk-chatback` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Find your personal Google Talk Hash Key (ID), see below
 1. Add the widget, insert shortcode into the WYSIWYG or use template tag in your theme template.
 
 ###The Google Talk Hash Key (ID)
